@@ -5,21 +5,21 @@ export function SideBarFooter() {
   return (
     <React.Fragment>
       <div className='footer-block'>
-        <div>About Press Copyright</div>
-        <div>Creators Advertise</div>
-        <div>Developers +MyTube</div>
-        <div>Legal</div>
+        <div>All Rights Reserved</div>
+        <div>D474designs</div>
+        <div>D474media</div>
+        <div>Copyright 2020</div>
       </div>
       <div className='footer-block'>
-        <div>Terms Privacy</div>
-        <div>Policy & Safety</div>
-        <div>Test new features</div>
+        <div>Make sure to subscribe!</div>
+        <div>Follow us online!</div>
+        <div>More content on the way!</div>
       </div>
       <div className='footer-block'>
-        <div>All prices include VAT</div>
+        <div>D474th3D357R0Y3R</div>
       </div>
       <div className='footer-block'>
-        <div>© Productioncoder.com - A Youtube clone for educational purposes under fair use.</div>
+        <div>2020 © D474designs.github.io</div>
       </div>
     </React.Fragment>
   );
