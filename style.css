@@ -29,7 +29,7 @@ h1 {
 .button-div {
   box-sizing: border-box;
   display: block;
-  height: 100%;
+  height: calc(400px - 27vw);
   width: 75%;
   animation: hue-rotate 10s linear infinite;
   background-color: #222;
