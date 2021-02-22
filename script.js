@@ -41,6 +41,14 @@ var Boid = function ( x, y, angle ) {
 
 }
 
+/*
+var body = document.body,
+    html = document.documentElement;
+
+var height = Math.max( body.scrollHeight, body.offsetHeight,
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+*/
+
 var width = window.innerWidth;
 var height = window.innerHeight;
 
