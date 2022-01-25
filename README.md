@@ -1,8 +1,6 @@
 ![D474developments](https://i.imgur.com/GVc03OA.png)
 
-[D474developments](https://D474developments.github.io/)
-
-# D474developments.github.io
+[# D474developments.github.io](https://D474developments.github.io/)
 
 ## Running on the latest technologies
 
