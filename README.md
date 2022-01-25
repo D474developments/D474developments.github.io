@@ -8,3 +8,4 @@
 
 [D474developments](https://D474developments.github.io/)
 ![Data Developments](https://i.imgur.com/vSA2Xl9.png)
+All Rights Reserved 2022 Copyright
