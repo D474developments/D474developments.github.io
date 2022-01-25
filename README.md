@@ -1,4 +1,4 @@
-[D474developments](https://i.imgur.com/KiZtXjA.png)
+![D474developments](https://i.imgur.com/KiZtXjA.png)
 
 # D474developments.github.io
 
