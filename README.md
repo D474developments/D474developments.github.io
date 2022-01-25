@@ -9,4 +9,5 @@
 ### in partnership with D474designs and D474media
 
 ![Data Developments](https://i.imgur.com/vSA2Xl9.png)
+
 All Rights Reserved 2022 Copyright
