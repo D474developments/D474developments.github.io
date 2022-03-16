@@ -56,7 +56,7 @@ h1 {
 
 .feed-div {
   margin-top: 35%;
-  height: 30%;
+  width: 100%;
   animation: feed-hue-rotate 16s linear infinite;
 }
 
