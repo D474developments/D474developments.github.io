@@ -68,7 +68,7 @@ h1 {
 .feed-divider {
     width: 100%;
     display: block;
-    padding-bottom: 7px;
+    margin-bottom: 7px;
 }
 
 @keyframes feed-hue-rotate {
