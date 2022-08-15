@@ -64,6 +64,11 @@ h1 {
     animation: feed-hue-rotate 16s linear infinite;
 }
 
+.feed-divider {
+    width: 100%;
+    display: block;
+}
+
 @keyframes feed-hue-rotate {
     from {
         -webkit-filter: hue-rotate(0);
