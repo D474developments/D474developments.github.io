@@ -62,6 +62,7 @@ h1 {
     width: 100%;
     display: block;
     animation: feed-hue-rotate 16s linear infinite;
+    clear: both;
 }
 
 .feed-divider {
