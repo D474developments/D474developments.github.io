@@ -65,12 +65,6 @@ h1 {
     clear: both;
 }
 
-.feed-divider {
-    width: 100%;
-    display: block;
-    margin-bottom: 7px;
-}
-
 @keyframes feed-hue-rotate {
     from {
         -webkit-filter: hue-rotate(0);
