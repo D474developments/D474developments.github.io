@@ -47,6 +47,13 @@ h1 {
     .mobile {}
 }
 
+pre {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
 .button-div {
     box-sizing: border-box;
     display: block;
