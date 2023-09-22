@@ -49,8 +49,8 @@ var height = Math.max( body.scrollHeight, body.offsetHeight,
                        html.clientHeight, html.scrollHeight, html.offsetHeight );
 */
 
-var width = window.width;
-var height = window.height;
+var width = window.screen.width;
+var height = window.screen.height;
 
 /*
 var width = window.innerWidth;
