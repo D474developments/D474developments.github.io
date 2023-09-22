@@ -49,8 +49,13 @@ var height = Math.max( body.scrollHeight, body.offsetHeight,
                        html.clientHeight, html.scrollHeight, html.offsetHeight );
 */
 
+var width = window.outerWidth;
+var height = window.outerHeight;
+
+/*
 var width = window.innerWidth;
 var height = window.innerHeight;
+*/
 
 var canvas = document.getElementById( 'world' );
 canvas.width = width;
