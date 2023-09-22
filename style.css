@@ -28,7 +28,7 @@ canvas {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: -999;
 
 }
 
@@ -51,7 +51,7 @@ pre {
     -webkit-font-smoothing: antialiased;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .button-div {
