@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
+
 body {
     margin: 0;
     overflow-x: hidden;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
 }
 
 table,
@@ -74,6 +82,122 @@ font-weight: 700;
     display: block;
     animation: feed-hue-rotate 16s linear infinite;
     clear: both;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell1 {
+  padding-right: 7em;
+}
+
+.cell2 {
+  padding-left: 7em;
+}
+
+.choices, .computer {
+  display: grid;
+  justify-content: center;
+  gap: 3em;
+}
+
+.btns {
+  position: relative;
+  border-radius: 100vmax;
+  border: 1px solid #1f202050;
+  width: 10em;
+  aspect-ratio: 1;
+}
+
+.choices button {
+  position: relative;
+  offset-path: border-box;
+  font-size: 4rem;
+  margin: 5px;
+  border: none;
+  background: #E1F8DC;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  aspect-ratio: 1;
+  border: 1px solid #1f202030;
+  border-radius: 100vmax;
+  offset-rotate: 0deg;
+}
+
+#rock {
+  offset-distance: 0%;
+}
+
+#paper {
+  offset-distance: calc(60 / 180 * 100%);
+}
+
+#scissors {
+  offset-distance: calc(120 / 180 * 100%);
+}
+
+.choices button:hover {
+  transform: scale(1.2);
+}
+
+#result {
+  font-size: 1.3rem;
+  margin-top: 2em;
+  min-height: 3em;
+  text-align: center;
+  grid-column: span 2;
+}
+
+#animation {
+  font-size: 4rem;
+  border: 1px solid #1f202030;
+  border-radius: 100vmax;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+  background-image: repeating-conic-gradient(#E1F8DC 0deg 10deg, #0000 10deg 20deg);
+  transition: background-color 0.5s ease;
+}
+
+@keyframes fireworks {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+.firework {
+  position: absolute;
+  width: 15em;
+  height: 15em;
+  border-radius: 70%;
+  background: radial-gradient(circle, white 10%, red 30%, yellow 60%, rgba(255, 255, 255, 0) 100%);
+  animation: fireworks 1s ease-out forwards;
+}
+
+#fireworks-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
 }
 
 @keyframes feed-hue-rotate {
