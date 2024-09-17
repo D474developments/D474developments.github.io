@@ -51,6 +51,18 @@ h1 {
     }
 }
 
+@media screen and (max-width: 700px) {
+    .btns {
+        width: 30%;
+	height: 30%;
+    }
+    #animation {
+        width: 30%;
+	height: 30%;
+	place-content: inherit;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .mobile {}
 }
