@@ -81,6 +81,7 @@ font-weight: 700;
 
 #twitch-embed {
     width: 100%;
+    z-index: 777;
 }
 
 .button-div {
