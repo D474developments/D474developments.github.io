@@ -90,21 +90,6 @@ a {
 font-weight: 700;
 }
 
-#twitch-embed {
-    z-index: 777;
-}
-#twitch-embed iframe {
-    width: 100%;
-    border-left-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 3px;
-}
-.yti iframe{
-    border-left-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 7px;
-}
-
 .button-div {
     box-sizing: border-box;
     display: block;
