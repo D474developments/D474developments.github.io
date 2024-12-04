@@ -86,7 +86,11 @@ font-weight: 700;
 #twitch-embed iframe {
     border-left-width: 3px;
     border-right-width: 3px;
-    border-bottom-width: 7px;
+    border-bottom-width: 3px;
+}
+.yti {
+    margin-left: 3px;
+    margin-bottom: 7px;
 }
 
 .button-div {
