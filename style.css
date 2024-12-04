@@ -45,6 +45,15 @@ h1 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.insignia {
+    float: right;
+    width: 33.3%;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
 @media screen and (min-width: 1200px) {
     .mobile {
         display: none;
