@@ -79,9 +79,11 @@ a {
 font-weight: 700;
 }
 
-#twitch-embed iframe{
+#twitch-embed {
     width: 100%;
     z-index: 777;
+}
+#twitch-embed iframe {
     border-left-width: 3px;
 }
 
