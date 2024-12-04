@@ -80,10 +80,10 @@ font-weight: 700;
 }
 
 #twitch-embed {
-    width: 100%;
     z-index: 777;
 }
 #twitch-embed iframe {
+    width: 100%;
     border-left-width: 3px;
     border-right-width: 3px;
     border-bottom-width: 3px;
