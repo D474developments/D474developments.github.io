@@ -461,15 +461,19 @@
         height: 480,
         channel: "d474th3d357r0y3r",
         layout: "video",
-        autoplay: false,
+        autoplay: true,
         // Only needed if this page is going to be embedded on other websites
-        parent: ["https://D474designs.github.io", "https://D474media.github.io"]
+        parent: ["https://D474designs.github.io", "https://D474media.github.io", "https://D474developments.github.io"],
+        allowfullscreen: true
       });
 
       embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
         var player = embed.getPlayer();
         player.play();
       });
+      embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
+          console.log('The video is ready');
+        });
     </script>
 
     <!-- script src="./jquery.min.js" type="text/javascript"></script -->
