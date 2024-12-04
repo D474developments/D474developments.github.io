@@ -430,6 +430,10 @@
         <figure><embed src="https://wakatime.com/share/@Data/2249dfb2-601a-46d7-a8a6-2c7e543da39b.svg"></embed></figure>
         <figure><embed src="https://wakatime.com/share/@Data/3349d587-dffe-4ad4-9c57-412f273f8c1b.svg"></embed></figure>
     </div>
+
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
     <!--
     <table class="center" style="width:100%;">
       <tr style="display:inline-table;">
@@ -447,6 +451,28 @@
     --->
     <canvas id='world'>
     </canvas>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element. -->
+    <script type="text/javascript">
+      var embed = new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "d474th3d357r0y3r",
+        layout: "video",
+        autoplay: false,
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["https://D474designs.github.io", "https://D474media.github.io"]
+      });
+
+      embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+        var player = embed.getPlayer();
+        player.play();
+      });
+    </script>
+
     <script src="./jquery.min.js" type="text/javascript"></script>
     <script src="./gsap.min.js" type="text/javascript"></script>
     <script src="./EasePack.min.js" type="text/javascript"></script>

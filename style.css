@@ -79,6 +79,10 @@ a {
 font-weight: 700;
 }
 
+#twitch-embed {
+    width: 100%;
+}
+
 .button-div {
     box-sizing: border-box;
     display: block;
