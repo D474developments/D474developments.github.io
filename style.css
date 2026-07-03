@@ -97,6 +97,18 @@ h1 {
     }
 }
 
+@media screen and (max-width: 700px) {
+    .thf {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .thf2 {
+        display: none;
+    }
+}
+
 /*
 @media screen and (min-width: 1200px) {
     .mobile {
