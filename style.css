@@ -176,12 +176,22 @@ h2 {
   margin-right: auto;
 }
 
+/*
 .cell1 {
   padding-right: 7em;
 }
 
 .cell2 {
   padding-left: 7em;
+}
+*/
+
+.cell1 {
+  padding-right: 3.5em;
+}
+
+.cell2 {
+  padding-left: 3.5em;
 }
 
 .choices, .computer {
