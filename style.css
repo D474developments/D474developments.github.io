@@ -89,6 +89,7 @@ h1 {
   }
 }
 
+/*
 @media screen and (min-width: 1200px) {
     .mobile {
         display: none;
@@ -110,6 +111,7 @@ h1 {
 @media screen and (max-width: 1200px) {
     .mobile {}
 }
+*/
 
 pre {
 -webkit-font-smoothing: antialiased;
