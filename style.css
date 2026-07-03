@@ -188,10 +188,12 @@ h2 {
 
 .cell1 {
   padding-right: 3.5em;
+  padding-left: 3.5em;
 }
 
 .cell2 {
   padding-left: 3.5em;
+  padding-right: 3.5em;
 }
 
 .choices, .computer {
