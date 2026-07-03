@@ -80,18 +80,18 @@ document.addEventListener("DOMContentLoaded", function () {
       }, 1000);
     }
   }
-  
+
   function triggerLossBackground() {
-        animationContainer.style.backgroundColor = 'red';
+    animationContainer.style.backgroundColor = 'red';
 
-        // Revert the background color to original after 1 second
-        setTimeout(() => {
-            animationContainer.style.backgroundColor = '';
-        }, 1000);
-    }
+    // Revert the background color to original after 1 second
+    setTimeout(() => {
+      animationContainer.style.backgroundColor = '';
+    }, 1000);
+  }
 
-    function resetBackgroundColor() {
-        animationContainer.style.backgroundColor = '';
-    }
-  
+  function resetBackgroundColor() {
+    animationContainer.style.backgroundColor = '';
+  }
+
 });
